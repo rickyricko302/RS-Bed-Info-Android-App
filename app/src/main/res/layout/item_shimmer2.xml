@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+
+                  android:padding="5dp"
+                  android:orientation="vertical"
+                  android:id="@+id/linItemBed"
+    >
+        <View android:layout_width="match_parent" android:layout_height="20dp"
+                  android:background="#878787"
+                  android:gravity="center_vertical"
+        />
+        <View android:layout_width="match_parent" android:layout_height="15dp"
+              android:background="#878787"
+              android:layout_marginTop="5dp"
+              android:gravity="center_vertical"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_below="@+id/linItemBed"
+                  android:layout_marginBottom="8dp"
+                  android:orientation="horizontal">
+        <View android:layout_width="60dp" android:layout_height="50dp"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginBottom="3dp"
+                  android:background="#878787"/>
+        <Space android:layout_width="25dp" android:layout_height="wrap_content"/>
+        <View android:layout_width="60dp" android:layout_height="50dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="3dp"
+              android:background="#878787"/>
+        <Space android:layout_width="25dp" android:layout_height="wrap_content"/>
+        <View android:layout_width="60dp" android:layout_height="50dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="3dp"
+              android:background="#878787"/>
+    </LinearLayout>
+</RelativeLayout>

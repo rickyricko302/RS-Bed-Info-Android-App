@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   app:cardCornerRadius="10dp"
+                                                   app:cardUseCompatPadding="true"
+                                                   app:cardElevation="4dp"
+                                                   android:id="@+id/detaiMyCard"
+                                                   android:theme="@style/Theme.MaterialComponents.Light"
+                                                   android:layout_marginTop="12dp"
+                                                   android:clickable="true"
+                                                   android:focusable="true"
+                                                   android:background="?attr/selectableItemBackground">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    >
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:id="@+id/detailTitle"
+                  android:text="Isolasi tanpa tekanan negatif"
+                  android:maxLines="2"
+                  android:ellipsize="end"
+                  android:textSize="20sp"
+                  android:gravity="center"
+                  android:textStyle="bold"
+                  android:textColor="@color/white"
+                  android:background="@color/red_btn_bg_color"
+                  />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:layout_below="@+id/detailTitle"
+                      android:id="@+id/detailLink"
+                      android:layout_marginBottom="8dp"
+                      android:layout_marginTop="8dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Antrian\n3"
+                      android:padding="10dp"
+                      android:gravity="center"
+                      android:typeface="serif"
+                      android:layout_marginTop="8dp"
+                      android:layout_marginBottom="3dp"
+                      android:textColor="@color/main_orange_color"
+                      android:id="@+id/detailAntrian"
+                      android:background="@drawable/iteminfo"/>
+            <Space android:layout_width="25dp" android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Tersedia\n0"
+                      android:padding="10dp"
+                      android:typeface="serif"
+                      android:gravity="center"
+                      android:id="@+id/detailTersedia"
+                      android:layout_marginTop="8dp"
+                      android:layout_marginBottom="3dp"
+                      android:textColor="@color/material_blue_grey_80"
+                      android:background="@drawable/statusitem"/>
+            <Space android:layout_width="25dp" android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Jumlah\n50"
+                      android:padding="10dp"
+                      android:gravity="center"
+                      android:typeface="serif"
+                      android:layout_marginTop="8dp"
+                      android:layout_marginBottom="3dp"
+                      android:textColor="#0B8807"
+                      android:id="@+id/detailStatus"
+                      android:background="@drawable/adaitem"/>
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="25-09-2021 09:09:21"
+                  android:textColor="#5C5C5C"
+                  android:layout_below="@+id/detailLink"
+                  android:gravity="right"
+                  android:id="@+id/detailUpdate"
+                  android:layout_marginRight="7dp"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginLeft="7dp"/>
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

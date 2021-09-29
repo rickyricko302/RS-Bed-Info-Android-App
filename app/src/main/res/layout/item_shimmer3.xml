@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+              android:orientation="vertical"
+                android:layout_height="match_parent"
+android:layout_marginBottom="15dp">
+    <View android:layout_width="match_parent" android:layout_height="20dp"
+              android:id="@+id/y"
+              android:background="#878787"
+    />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:id="@+id/z"
+                  android:layout_below="@+id/y"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginTop="15dp"
+                  android:orientation="horizontal">
+        <View android:layout_width="60dp" android:layout_height="50dp"
+
+                  android:background="#878787"/>
+        <Space android:layout_width="25dp" android:layout_height="wrap_content"/>
+        <View android:layout_width="60dp" android:layout_height="50dp"
+
+              android:background="#878787"/>
+        <Space android:layout_width="25dp" android:layout_height="wrap_content"/>
+        <View android:layout_width="60dp" android:layout_height="50dp"
+
+              android:background="#878787"/>
+    </LinearLayout>
+    <View android:layout_width="100dp" android:layout_height="15dp"
+              android:layout_marginRight="7dp"
+              android:layout_marginBottom="5dp"
+              android:layout_below="@+id/z"
+          android:background="#878787"
+          android:layout_alignParentRight="true"
+              android:layout_marginLeft="7dp"/>
+
+</RelativeLayout>
