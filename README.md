@@ -8,3 +8,5 @@ Kamu bisa mendownloadnya <a href="https://github.com/rickyricko302/RS-Bed-Info-A
 # Tampilan UI
 <img src="https://github.com/rickyricko302/RS-Bed-Info-Android-App/blob/main/screenshoot/mockup.png"/>
 <img src="https://github.com/rickyricko302/RS-Bed-Info-Android-App/blob/main/screenshoot/mockup2.png"/>
+
+![alt text](https://forthebadge.com/images/badges/built-for-android.svg) ![alt text](https://forthebadge.com/images/badges/built-with-love.svg)
